@@ -49,3 +49,10 @@ function add7(number){
 
 
 console.log(add7(10));
+
+
+function multiply(number1, number2){
+    return number1 * number2
+};
+
+console.log(multiply(10, 6));
