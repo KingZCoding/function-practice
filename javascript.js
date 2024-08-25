@@ -44,15 +44,66 @@ textBox.addEventListener("keydown", (event) =>{
 
 //top assignments
 function add7(number){
-    return number + 7
-};
+    return number + 7;
+}
 
 
-console.log(add7(10));
+console.log(add7(10))
 
 
 function multiply(number1, number2){
-    return number1 * number2
+    return number1 * number2;
+}
+
+console.log(multiply(10, 6))
+
+function capitalize(word){
+    return word[0].toUpperCase() + word.slice(1).toLowerCase();
 };
 
-console.log(multiply(10, 6));
+console.log(capitalize("nADIA"))
+console.log(capitalize("aiden"))
+console.log(capitalize("CARSEN"))
+
+function lastLetter (word) {
+    return word[word.length - 1];
+}
+
+console.log(lastLetter("Aiden"))
+console.log(lastLetter("Carsen"))
+
+//practicing functions on my own
+function firstLetter(word) {
+    return word[0];
+}
+
+console.log(firstLetter("Aiden"))
+console.log(firstLetter("Carsen"))
+
+function cap (str){
+    return str.toUpperCase();
+}
+
+console.log(cap("aiden"))
+console.log(cap("cASREN"))
+console.log(cap("Nadia"))
+
+function mult(number3, number4){
+    return number3 * number4;
+}
+
+console.log(mult(57, 12))
+
+function divide(number5, number6){
+    return number5 / number6;
+}
+
+console.log(divide(34, 2))
+
+function lower(str){
+    return str.toLowerCase();
+}
+
+console.log(lower("AIDEN"))
+console.log(lower("CaRsEn"))
+console.log(lower("naDIA"))
